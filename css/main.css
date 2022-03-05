@@ -1,0 +1,181 @@
+/*--------------------------------- Main --------------------------------- */
+body {direction:ltr;}
+ul, ol {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+@font-face {
+    font-family: Adobe Caslon Pro Bold Italic;
+    src: url(../fonts/Adobe\ Caslon\ Pro\ Bold\ Italic.ttf);
+ }
+/* ---------------------------------Header----------------------------------------------------- */
+header {
+    min-height:1000px;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}   
+    /* Logo */
+    header .logo {
+        min-height:80px;
+        width:10%;
+        float:left;
+        margin:10px 0px 0px 40px;
+    }    
+    /* Navigation */
+    header nav {
+        min-height:100px;
+        width:80%;
+        float:right;
+    }
+        header nav ul {
+            float:right;
+            margin-right:30px;
+        }
+            header nav ul li {display:inline-block;}
+                header nav ul li .button {
+                    display: inline-block;
+                    padding:60px 30px 30px 30px;
+                    font-size: 16px;
+                    color: rgb(116, 110, 110);
+                }
+                    header nav ul li .button:hover {
+                        background: #00ff9c;
+                        color:black;
+                    }
+    header .Heading1 {
+        text-align: center;
+        padding-top:300px;
+        font-family: Adobe Caslon Pro Bold Italic;
+        font-size: 42px;
+        color:#353232  
+    }              
+    /* Section1 */
+    header .section1 {
+        text-align: center;
+        padding-top:100px;
+        font-family: Adobe Caslon Pro Bold Italic;
+        font-size: 74px;
+        color:#000000  
+    }
+/* ----------------------------------Section2---------------------------------------------------- */
+.section2 {
+    width: 100%;
+    height: 100%;
+    height: 900px;
+    background: white;
+    font-family: Adobe Caslon Pro Bold Italic;
+}
+.content{
+    margin-left: 10%;
+}
+      .box {  
+        display: inline;
+        width: 25%;
+        height: 90%;
+        float:left;
+        overflow: hidden;
+        position: relative;
+        margin-left: 60px;
+        margin-top:50px;
+        font-size: 14px;
+        color:grey;
+        font-family: Adobe Caslon Pro Bold Italic;
+    }
+     .box img{
+        display: block;
+        margin-left:20px;
+        width: 300px;
+        height: 300px;
+        transition: all 0.5s ease;
+     }
+     .box p{
+         width: 80%;
+         margin-left:20px;
+     }
+     .box p:hover{
+         color:rgb(56, 45, 45);
+     }
+     .s:hover{
+        width: 400px;
+        transition: all 0.5s ease;
+     }
+/* -----------------------------Section3 --------------------------------------------------------- */
+.section3 {
+    padding-top: 70px;
+    width: 100%;
+    height: 1800;
+    background-image: url("../images/background2.png");
+    font-family: Adobe Caslon Pro Bold Italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.cont{
+    margin-left:27%;
+    display: inline-flex;
+    height: 250px;
+    margin-bottom: 60px;
+    margin-right: 24%;
+    width: 100%; 
+}
+  .cont img{
+    width: 22%;
+    height: 220px;
+    display: inline;
+  }
+  .cont2{
+    width: 25%;
+    height: 220px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+   }
+    .cont2 h3 a{
+     color: rgb(177, 120, 35);
+     font-weight: bold;
+     }
+    .cont2 p{
+     font-family:'Times New Roman', Times, serif; 
+     font-size: 14px;
+     }
+     .h:hover{
+        color: rgb(255, 145, 0);
+     }
+/* -----------------------------------------Footer--------------------------------------------- */
+footer {min-height:750px;}
+    footer .info {
+        min-height:600px;
+        background:#1f1f1f;
+        text-align: center;
+    }
+        footer .info .logo {
+            padding-top:60px;
+            padding-bottom:30px;
+        }
+        footer .info table  {display:inline;}
+            footer .info table .button0 {color:#00ff9c;}
+            footer .info table .button0:hover {color:gray;}
+            footer .info table .button {color:gray;}
+            footer .info table .button:hover {color:#00ff9c;}
+            footer .info table td {padding:20px; width:250px;}
+    /* Copyright */
+    footer .copyright {
+        min-height:150px;
+        background: #1b1b1b;
+    }
+        footer .copyright .data {
+            float:left;
+            padding:60px;
+            color:grey
+        }
+        footer .copyright .logo {
+            float: right;
+            padding-right: 100px;
+            padding-top: 30px;
+        }
